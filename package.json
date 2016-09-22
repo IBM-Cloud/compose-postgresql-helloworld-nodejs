@@ -1,0 +1,34 @@
+{
+    "name": "compose-postgresql-helloworld-nodejs",
+    "version": "0.0.0",
+    "dependencies": {
+      "body-parser": "^1.15.2",
+        "express": "~4.x",
+        "commander": "^2.6.0",
+        "http-post": "^0.1.1",
+        "http-proxy": "^1.8.1",
+        "cfenv": "1.0.x",
+        "pg": "*",
+    		"pg-connection-string": "*",
+        "cf-deployment-tracker-client": "*"
+    },
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs.git"
+    },
+    "author": "IBM Corp.",
+    "contributors": [
+      {
+        "name": "Neil Dewhurst",
+        "email": "ndewhurs@uk.ibm.com"
+      }
+    ],
+    "bugs": {
+      "url": "https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs/issues"
+    },
+    "license": "Apache-2.0"
+}

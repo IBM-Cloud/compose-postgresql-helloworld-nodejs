@@ -1,0 +1,7 @@
+---
+applications:
+- name:    compose-postgresql-helloworld-nodejs
+  host:    compose-postgresql-helloworld-nodejs
+  memory:  128M
+  services:
+    - my-compose-for-postgresql-service
