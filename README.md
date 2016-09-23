@@ -32,7 +32,7 @@ compose-postgresql-helloworld-nodejs is a sample Bluemix application which shows
   **Note :** The Compose for PostgreSQL service does not offer a free plan. For details of pricing, see the _Pricing Plans_ section of the [Compose for PostgreSQL service][compose_for_postgresql_url] in Bluemix.
 
   ```
-  $ cf create-service compose-postgresql-helloworld-nodejs Standard my-compose-for-postgresql-service
+  $ cf create-service compose-for-postgresql Standard my-compose-for-postgresql-service
   ```
 
 8. Push the app to Bluemix.
