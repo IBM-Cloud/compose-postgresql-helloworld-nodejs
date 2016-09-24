@@ -35,7 +35,13 @@ compose-postgresql-helloworld-nodejs is a sample Bluemix application which shows
   $ cf create-service compose-for-postgresql Standard my-compose-for-postgresql-service
   ```
 
-8. Push the app to Bluemix.
+8. Bind the service to the application.
+
+  ```
+  $ cf bind-service compose-postgresql-helloworld-nodejs my-compose-for-postgresql-service
+  ```
+  
+9. Push the app to Bluemix.
 
   ```
   $ cf push
