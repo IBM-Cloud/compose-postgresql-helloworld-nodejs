@@ -105,7 +105,7 @@ app.put("/words", function(request, response) {
   });
 });
 
-// Read from the database when someone visits /hello
+// Read from the database when someone visits /words
 app.get("/words", function(request, response) {
   // set up a new client using our config details
   var client = new pg.Client(config);
