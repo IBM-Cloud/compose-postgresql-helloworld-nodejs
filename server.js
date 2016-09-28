@@ -44,10 +44,10 @@ var services = appenv.services;
 // The services object is a map named by service so we extract the one for PostgreSQL
 var pg_services = services["compose-for-postgresql"];
 
-// This check ensures there is a services for MongoDB databases
+// This check ensures there is a services for PostgreSQL databases
 // assert(!util.isUndefined(pg_services), "Must be bound to compose-for-postgresql services");
 
-// We now take the first bound MongoDB service and extract it's credentials object
+// We now take the first bound PostgreSQL service and extract it's credentials object
 var credentials = pg_services[0].credentials;
 
 // Within the credentials, an entry ca_certificate_base64 contains the SSL pinning key
