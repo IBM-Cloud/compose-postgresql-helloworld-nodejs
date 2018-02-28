@@ -18,7 +18,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs.git"
+      "url": "https://github.com/IBM-Cloud/compose-postgresql-helloworld-nodejs.git"
     },
     "author": "IBM Corp.",
     "contributors": [
@@ -28,7 +28,7 @@
       }
     ],
     "bugs": {
-      "url": "https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs/issues"
+      "url": "https://github.com/IBM-Cloud/compose-postgresql-helloworld-nodejs/issues"
     },
     "license": "Apache-2.0"
 }
