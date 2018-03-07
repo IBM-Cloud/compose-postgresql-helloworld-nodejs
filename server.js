@@ -170,5 +170,3 @@ app.get("/words", function(request, response) {
 app.listen(port, function() {
     console.log("Server is listening on port " + port);
 });
-
-require("cf-deployment-tracker-client").track();

@@ -78,19 +78,7 @@ The app uses a PUT and a GET operation:
   - uses `client.query` method to retrieve the contents of the _words_ table
   - returns the response of the database command to [main.js](public/javascript/main.js)
 
-## Privacy Notice
-The sample web application includes code to track deployments to IBM Cloud and other Cloud Foundry platforms. The following information is sent to a [Deployment Tracker](https://github.com/cloudant-labs/deployment-tracker) service on each deployment:
 
-* Application Name (application_name)
-* Space ID (space_id)
-* Application Version (application_version)
-* Application URIs (application_uris)
-
-This data is collected from the VCAP_APPLICATION environment variable in IBM Cloud and other Cloud Foundry platforms. This data is used by IBM to track metrics around deployments of sample applications to IBM Cloud. Only deployments of sample applications that include code to ping the Deployment Tracker service will be tracked.
-
-### Disabling Deployment Tracking
-
-Deployment tracking can be disabled by removing `require("cf-deployment-tracker-client").track();` from the beginning of the `server.js` file.
 
 [compose_for_postgreSQL_url]: https://console.bluemix.net/catalog/services/compose-for-postgreSQL/
 [IBMCloud_signup_url]: https://console.bluemix.net/registration/?cm_mmc=Display-SampleApp-_-BluemixSampleApp-ComposePostgreSQL

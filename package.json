@@ -9,8 +9,7 @@
         "http-proxy": "^1.8.1",
         "cfenv": "1.0.x",
         "pg": "*",
-    		"pg-connection-string": "*",
-        "cf-deployment-tracker-client": "*"
+    		"pg-connection-string": "*"
     },
     "main": "server.js",
     "scripts": {
