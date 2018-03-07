@@ -43,7 +43,7 @@ compose-postgresql-helloworld-nodejs is a sample IBM Cloud application which sho
 
   - **Note :** The Compose for PostgreSQL service does not offer a free plan. For details of pricing, see the _Pricing Plans_ section of the [Compose for PostgreSQL service][compose_for_postgresql_url] in IBM Cloud.
 
-  - You will need to specify the service plan that your service will use, which can be _Standard_ or _Enterprise_. This readme file assumes that you will use the _Standard_ plan. To use the _Enterprise_ plan you will need to create an instance of the Compose Enterprise service first. Compose Enterprise is a service which provides a private isolated cluster for your Compose databases. For information on Compose Enterprise and how to provision your app into a Compose Enterprise cluster, see the [Compose Enterprise for IBM Cloud help](https://console.ng.bluemix.net/docs/services/ComposeEnterprise/index.html).
+  - You will need to specify the service plan that your service will use, which can be _Standard_ or _Enterprise_. This readme file assumes that you will use the _Standard_ plan. To use the _Enterprise_ plan you will need to create an instance of the Compose Enterprise service first. Compose Enterprise is a service which provides a private isolated cluster for your Compose databases. For information on Compose Enterprise and how to provision your app into a Compose Enterprise cluster, see the [Compose Enterprise for IBM Cloud help](https://console.bluemix.net/docs/services/ComposeEnterprise/index.html).
 
   To create your service:
 
@@ -92,6 +92,6 @@ This data is collected from the VCAP_APPLICATION environment variable in IBM Clo
 
 Deployment tracking can be disabled by removing `require("cf-deployment-tracker-client").track();` from the beginning of the `server.js` file.
 
-[compose_for_postgreSQL_url]: https://new-console.ng.bluemix.net/catalog/services/compose-for-postgreSQL/
-[IBMCloud_signup_url]: https://ibm.biz/compose-for-postgreSQL-signup
-[cloud_foundry_url]: https://github.com/cloudfoundry/cli
+[compose_for_postgreSQL_url]: https://console.bluemix.net/catalog/services/compose-for-postgreSQL/
+[IBMCloud_signup_url]: https://console.bluemix.net/registration/?cm_mmc=Display-SampleApp-_-BluemixSampleApp-ComposePostgreSQL
+
