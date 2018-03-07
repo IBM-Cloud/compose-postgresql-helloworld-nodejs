@@ -29,7 +29,7 @@ compose-postgresql-helloworld-nodejs is a sample IBM Cloud application which sho
 5. Clone the app to your local environment from your terminal using the following command:
 
   ```
-  git clone https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs.git
+  git clone https://github.com/IBM-Cloud/compose-postgresql-helloworld-nodejs.git
   ```
 
 6. `cd` into this newly created directory
